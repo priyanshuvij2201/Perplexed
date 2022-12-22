@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Perplex
+      </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/pythogorean_triplets.css">
+      <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Condensed:700|Roboto:500" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+   </head>
+   <body>
+      <div class="topnav">
+         <div class="empty"></div>
+         <div class="container">
+            <a href="index.html" id="logo">PERPLEX</a>
+            <div class="dropdown">
+               <a  id="menu_toggle" class="dropbtn">&#9776;</a>
+               <div class="dropdown-content">
+                  <a href="piano.html">Piano</a>
+                  <a href="colorgrid.html">Colorgrid</a>
+                  <a href="number_guess.html">Number Guess</a>
+                  <a href="pythogorean_triplets.html">Pythogorean Triplets</a>
+                  <a href="palindrome_numbers.html">Palindrome Numbers</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="maingame">
+         <h1 id= "head">
+            Pythogorean triplets
+         </h1>
+         <p id= "content">
+            Enter the hypotenuse, base and perpendicular to check if they are pythogorean triplets <br>(don't leave any input empty)
+         </p>
+         <div class="form">
+            <label for="guessField"></label>
+            <input type="text" id="hypotenuse" class="guessField" placeholder="Enter the hypotenuse"> 
+            <p>
+            </p>
+            <input type="text" id="perpendicular" class="guessField" placeholder="Enter the perpendicular"> 
+            <p>
+            </p>
+            <input type="text" id="base" class="guessField" placeholder="Enter the base">
+            <p>
+            </p>
+            <input type="submit" value="Submit guess" class="guessSubmit" id= "submit"> 
+         </div>
+         <p id= "result1">
+         </p>
+      </div>
+      <script type="text/javascript" src="js/pythogoras.js"></script>
+   </body>
+</html>
